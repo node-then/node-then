@@ -30,7 +30,7 @@
 	},
 	"main": "./lib/node-then",
 	"scripts": {
-		"test": "buster test",
+		"test": "jshint . && buster test",
 		"benchmark": "node benchmark/run"
 	}
 }
